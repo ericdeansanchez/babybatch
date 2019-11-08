@@ -1,0 +1,31 @@
+[package]
+name = "babybatch"
+version = "0.1.0"
+authors = ["eric <ericdeansanchez@berkeley.edu>"]
+description = """
+baby-batch is a cli-based application that currently only makes calls
+to the YouTube Data Api. baby-batch is meant to be used to gather data
+from some 'service' and then...? well, that part is up to you... As its
+name suggest, baby-batch, is a component of a 'baby' batch processing
+system.
+"""
+documentation = "https://github.com/ericdeansanchez/babybatch"
+homepage = "https://github.com/ericdeansanchez/babybatch"
+repository = "https://github.com/ericdeansanchez/babybatch"
+readme = "README.md"
+license = "MIT"
+edition = "2018"
+
+
+[dependencies]
+# replicate aims to be reasonably generic, if you want
+# to use a specific version of clap, you should change the
+# following to that version (e.g. clap = "2.33.0").
+clap = "*"
+dotenv = "0.15.0"
+reqwest = "*"
+serde_json = "*"
+
+[lib]
+name = "babybatch"
+path = "src/babybatch/lib.rs"
