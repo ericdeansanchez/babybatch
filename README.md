@@ -22,7 +22,7 @@ or passed off or both.
 ## Next Steps
 
 - configure the cli semantics (i.e. `$ babybatch <uri> <outdir>`)
-  - and then maybe something like `% babybatch --json <uri> <outdir>`
+  - and then maybe something like `$ babybatch --json <uri> <outdir>`
   - the idea is to mimic a unix-y composition wherein usage might look like:
 
 ```text
