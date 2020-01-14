@@ -2,6 +2,8 @@
 
 ## Overview
 
+![alt text](https://github.com/ericdeansanchez/babybatch/blob/master/BabyBatchCupcakeCrab.png "BabyBatch CupCake Crab :)")
+
 Baby batch is a simple client cli written in rust. Currently, this iteration _only_ supports requests from the [YouTube Data API](https://developers.google.com/youtube/v3).
 
 This cli was made using [replicate](https://github.com/ericdeansanchez/replicate) via:
